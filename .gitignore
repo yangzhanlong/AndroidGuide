@@ -1,5 +1,24 @@
 node_modules
 docs/.vuepress/dist
-.temp
-.cache
+/package-lock.json
+*.drawio
 .DS_Store
+# VS Code Config file
+.vscode/
+# Vuepress Cache
+.cache/
+# Vuepress Temp
+.temp/
+# Vuepress Output
+dist/
+# Build files
+packages/*/lib/
+node_modules/
+docs/.vuepress/.cache/
+docs/.vuepress/.temp/
+docs/.vuepress/dist/
+
+node_modules/
+docs/.vuepress/.cache/
+docs/.vuepress/.temp/
+docs/.vuepress/dist/
