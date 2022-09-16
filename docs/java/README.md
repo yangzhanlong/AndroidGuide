@@ -1,7 +1,7 @@
 ---
 title: Java
 index: false
-icon: creative
+icon: java
 category:
-  - 测试
+  - Java
 ---
