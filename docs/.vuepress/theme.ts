@@ -10,7 +10,7 @@ export default hopeTheme({
     url: "https://yangzhanlong.github.io",
   },
 
-  iconAssets: "iconfont",
+  iconAssets: "//at.alicdn.com/t/c/font_3654762_kq0gqtxkiwb.css",
 
   logo: "/logo.svg",
 
@@ -77,7 +77,12 @@ export default hopeTheme({
     // },
 
     mdEnhance: {
+      lazyLoad:true,
       tasklist: true,
+      // 启用图片标记
+      imageMark: true,
+      // 启用图片大小
+      imageSize: true,
     },
     feed: {
       json: true,
