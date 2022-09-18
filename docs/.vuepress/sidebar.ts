@@ -11,8 +11,26 @@ export default sidebar({
     {
       text: "Java",
       icon: "java",
+      prefix: "java/",
       collapsable: true,
-      children: [],
+      children: [
+        {
+          text: "多线程",
+          prefix: "concurrent/",
+          collapsable: true,
+          children: [
+            "thread",
+          ]
+        },
+        {
+          text: "JVM",
+          prefix: "jvm/",
+          collapsable: true,
+          children: [
+            "java内存模型",
+          ]
+        },
+      ]
     },
   ]
 })
