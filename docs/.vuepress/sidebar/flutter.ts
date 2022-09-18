@@ -7,8 +7,8 @@ export const flutter = [
             {
                 text:"Widget",
                 collapsable: true,
-                children: []
+                children: [],
             },
-        ]
+        ],
     },
 ];

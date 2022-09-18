@@ -20,7 +20,7 @@ export const android = [
                     "databinding", "viewModel", "liveData", "lifeCycle"
                 ]
             },
-        ]
+        ],
     },
     {
         text: "Kotlin",
@@ -29,7 +29,7 @@ export const android = [
         collapsable: true,
         children: [
             "Kotlin基础",
-        ]
+        ],
     },
     {
         text: "NDK",
@@ -42,15 +42,17 @@ export const android = [
                 collapsable: true,
                 children: [
                     "C++基础",
-                ]
+                ],
             },
             {
                 text: "Jni",
                 collapsable: true,
                 children: [
-                    "Jni基础", "Jni数组排序", "Jni导入c库开放流程", "Jni静态注册与动态注册", "Jni线程", "Jni静态缓存", "Jni异常处理", "Jni执行原理", "Jni之分析Parcel源码",
-                ]
+                    "Jni基础", "Jni数组排序",
+                    "Jni导入c库开放流程", "Jni静态注册与动态注册",
+                    "Jni线程", "Jni静态缓存", "Jni异常处理", "Jni执行原理", "Jni之分析Parcel源码",
+                ],
             },
-        ]
-    }
+        ],
+    },
 ];

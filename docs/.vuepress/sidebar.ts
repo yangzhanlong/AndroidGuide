@@ -1,36 +1,37 @@
-import { sidebar } from "vuepress-theme-hope";
-import { android } from "./sidebar/android";
-import { video } from "./sidebar/video"
-import { flutter } from "./sidebar/flutter"
+import {sidebar} from "vuepress-theme-hope";
+import {android} from "./sidebar/android";
+import {video} from "./sidebar/video"
+import {flutter} from "./sidebar/flutter"
 
 export default sidebar({
-  "/android/": android,
-  "/video/": video,
-  "/flutter/":flutter,
-  "/":[
-    {
-      text: "Java",
-      icon: "java",
-      prefix: "java/",
-      collapsable: true,
-      children: [
+    "/android/": android,
+    "/video/": video,
+    "/flutter/": flutter,
+    "/": [
         {
-          text: "多线程",
-          prefix: "concurrent/",
-          collapsable: true,
-          children: [
-            "thread",
-          ]
+            text: "Java",
+            icon: "java",
+            prefix: "java/",
+            collapsable: false,
+            children: [
+                {
+                    text: "多线程",
+                    prefix: "concurrent/",
+                    icon: "java",
+                    collapsable: true,
+                    children: [
+                        "thread",
+                    ],
+                },
+                {
+                    text: "JVM",
+                    prefix: "jvm/",
+                    collapsable: true,
+                    children: [
+                        "java内存模型",
+                    ],
+                },
+            ],
         },
-        {
-          text: "JVM",
-          prefix: "jvm/",
-          collapsable: true,
-          children: [
-            "java内存模型",
-          ]
-        },
-      ]
-    },
-  ]
-})
+    ],
+});

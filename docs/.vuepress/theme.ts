@@ -33,7 +33,6 @@ export default hopeTheme({
 
   blog: {
     description: "一个 Android 开发者",
-    intro: "/intro.html",
     medias: {
       GitHub: "https://github.com/yangzhanlong"
     },
@@ -77,6 +76,9 @@ export default hopeTheme({
     // },
 
     mdEnhance: {
+      container: true,
+      mermaid:true,
+      mark: true,
       lazyLoad:true,
       tasklist: true,
       // 启用图片标记
