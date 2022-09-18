@@ -1,7 +1,7 @@
 ---
 home: true
-icon: home
-title: Android学习
+icon: android
+title: Android学习之路
 heroImage: /logo.png
 heroText: AndroidGuide
 tagline: 「Android学习之路」一份涵盖大部分 Android 程序员所需要掌握的核心知识(包括：Java， FrameWork，Kotlin， 音视频， Flutter等)。
