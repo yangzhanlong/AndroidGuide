@@ -11,7 +11,6 @@ export default sidebar({
     {
       text: "Java",
       icon: "java",
-      prefix: "/java/",
       collapsable: true,
       children: [],
     },
