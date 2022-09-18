@@ -1,7 +1,7 @@
 ---
 title: Flutter
 index: false
-icon: creative
+icon: flutter
 category:
   - Flutter
 ---

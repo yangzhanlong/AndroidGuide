@@ -12,5 +12,15 @@ export default defineUserConfig({
 
   base: "/",
 
+  head: [
+    [
+      "link",
+      {
+        rel: "stylesheet",
+        href: "/iconfont/iconfont.css",
+      },
+    ],
+  ],
+
   theme,
 });

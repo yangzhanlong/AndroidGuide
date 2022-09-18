@@ -1,8 +1,8 @@
 export const video = [
     {
         text: "音视频",
-        link: "video",
-        icon: "yinle",
+        icon: "music",
+        prefix: "video/",
         collapsable: true,
         children: [
             {

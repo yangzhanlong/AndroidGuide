@@ -1,7 +1,7 @@
 export const flutter = [
     {
         text: "Flutter",
-        link: "flutter",
+        prefix: "flutter/",
         icon: "flutter",
         collapsable: true,
         children: [
