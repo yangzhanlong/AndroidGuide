@@ -28,6 +28,7 @@ export default hopeTheme({
 
   // sidebar
   sidebar: sidebar,
+  sidebarIcon:true,
 
   footer: '',
 

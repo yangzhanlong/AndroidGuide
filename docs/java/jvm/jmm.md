@@ -1,6 +1,6 @@
 ---
 title: Java内存模型
-index: false
+index: true
 category:
 - Java
 ---
