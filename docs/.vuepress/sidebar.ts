@@ -17,7 +17,6 @@ export default sidebar({
                 {
                     text: "多线程",
                     prefix: "concurrent/",
-                    icon: "java",
                     collapsable: true,
                     children: [
                         "thread",
@@ -28,7 +27,7 @@ export default sidebar({
                     prefix: "jvm/",
                     collapsable: true,
                     children: [
-                        "java内存模型",
+                        "jmm",
                     ],
                 },
             ],

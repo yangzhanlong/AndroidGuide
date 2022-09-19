@@ -12,12 +12,16 @@ export default hopeTheme({
 
   iconAssets: "iconfont",
 
+  iconPrefix: "iconfont icon-",
+
   logo: "/logo.svg",
 
   repo: "https://github.com/yangzhanlong/AndroidGuide",
 
   docsDir: "docs",
-  pure: true,
+  //pure: true,
+
+  darkmode: "switch",
 
   // navbar
   navbar: navbar,
@@ -85,6 +89,9 @@ export default hopeTheme({
       imageMark: true,
       // 启用图片大小
       imageSize: true,
+      presentation: {
+        plugins: ["highlight", "math", "search", "notes", "zoom"],
+      },
     },
     feed: {
       json: true,

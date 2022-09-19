@@ -2,55 +2,42 @@ export const android = [
     {
         text: "Framework",
         prefix: "framework/",
-        icon: "android",
         collapsable: true,
         children: [
-            {
-                text: "Handler",
-                collapsable: true,
-                children: [
-                    "handler",
-                ]
-            },
-            {
-                text: "Jetpack",
-                prefix: "jetpack/",
-                collapsable: true,
-                children: [
-                    "databinding", "viewModel", "liveData", "lifeCycle"
-                ]
-            },
+           "handler",
+        ],
+    },
+    {
+        text: "Jetpack",
+        collapsable: true,
+        children: [
+            "framework/jetpack/databinding",
+            "framework/jetpack/viewModel",
+            "framework/jetpack/liveData",
+            "framework/jetpack/lifeCycle",
         ],
     },
     {
         text: "Kotlin",
         prefix: "kotlin/",
         icon: "kotlin",
-        collapsable: true,
         children: [
-            "Kotlin基础",
+            "kotlin-base",
         ],
     },
     {
         text: "NDK",
         prefix: "ndk/",
-        icon: "android",
         collapsable: true,
         children: [
-            {
-                text: "C++",
-                collapsable: true,
-                children: [
-                    "C++基础",
-                ],
-            },
+            "C++-base",
             {
                 text: "Jni",
                 collapsable: true,
                 children: [
-                    "Jni基础", "Jni数组排序",
-                    "Jni导入c库开放流程", "Jni静态注册与动态注册",
-                    "Jni线程", "Jni静态缓存", "Jni异常处理", "Jni执行原理", "Jni之分析Parcel源码",
+                    "Jni-base", "Jni-sort",
+                    "Jni-c-dev", "Jni-register",
+                    "Jni-thread", "Jni-cache", "Jni-exception", "Jni-run", "Jni-Parcel",
                 ],
             },
         ],
