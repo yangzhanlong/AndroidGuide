@@ -10,11 +10,12 @@ export const android = [
     {
         text: "Jetpack",
         collapsable: true,
+        prefix: "framework/jetpack/",
         children: [
-            "framework/jetpack/databinding",
-            "framework/jetpack/viewModel",
-            "framework/jetpack/liveData",
-            "framework/jetpack/lifeCycle",
+            "databinding",
+            "viewModel",
+            "liveData",
+            "lifeCycle",
         ],
     },
     {

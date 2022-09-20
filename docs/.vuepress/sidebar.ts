@@ -11,12 +11,11 @@ export default sidebar({
         {
             text: "Java",
             icon: "java",
-            prefix: "java/",
             collapsable: false,
             children: [
                 {
                     text: "多线程",
-                    prefix: "concurrent/",
+                    prefix: "java/concurrent/",
                     collapsable: true,
                     children: [
                         "thread",
@@ -24,7 +23,7 @@ export default sidebar({
                 },
                 {
                     text: "JVM",
-                    prefix: "jvm/",
+                    prefix: "java/jvm/",
                     collapsable: true,
                     children: [
                         "jmm",
