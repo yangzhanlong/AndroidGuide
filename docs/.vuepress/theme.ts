@@ -21,7 +21,7 @@ export default hopeTheme({
   docsDir: "docs",
   //pure: true,
 
-  darkmode: "switch",
+  darkmode: "toggle",
 
   // navbar
   navbar: navbar,
@@ -45,7 +45,7 @@ export default hopeTheme({
 
   encrypt: {
     config: {
-      "/guide/encrypt.html": ["1234"],
+      //"/guide/encrypt.html": ["1234"],
     },
   },
 

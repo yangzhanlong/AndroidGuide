@@ -1,7 +1,44 @@
 export const android = [
     {
+        text: "Android虚拟机",
+
+        icon:"jichu",
+        collapsable: true,
+        children: [
+            {
+                text: "指令",
+                prefix: "android_vm/",
+                icon:"jichu",
+                collapsable: true,
+                children: [
+                    "指令集解读","深入Android内存管理","类加载与动态字节替换"
+                ],
+            },
+            {
+                text: "垃圾回收",
+                prefix: "android_vm/",
+                icon:"jichu",
+                collapsable: true,
+                children: [
+
+                ],
+            },
+            {
+                text: "类与对象结构",
+                prefix: "android_vm/",
+                icon:"jichu",
+                collapsable: true,
+                children: [
+
+                ],
+            },
+
+        ],
+    },
+    {
         text: "Framework",
         prefix: "framework/",
+        icon:"jichu",
         collapsable: true,
         children: [
            "handler",
@@ -10,6 +47,7 @@ export const android = [
     {
         text: "Jetpack",
         collapsable: true,
+        icon:"jichu",
         prefix: "framework/jetpack/",
         children: [
             "databinding",
@@ -21,6 +59,7 @@ export const android = [
     {
         text: "Kotlin",
         prefix: "kotlin/",
+        collapsable: true,
         icon: "kotlin",
         children: [
             "kotlin-base",
@@ -29,6 +68,7 @@ export const android = [
     {
         text: "NDK",
         prefix: "ndk/",
+        icon:"jichu",
         collapsable: true,
         children: [
             "C++-base",
