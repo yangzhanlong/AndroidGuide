@@ -18,7 +18,7 @@ export default sidebar({
                     prefix: "java/base/",
                     collapsable: true,
                     children: [
-                        "自定义注解","注解的使用","APT实现原理","泛型"
+                        "自定义注解","注解的使用","泛型"
                     ],
                 },
                 {

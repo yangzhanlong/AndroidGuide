@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Markmap</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #mindmap {
+            display: block;
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.14.3/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.7.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/markmap-view@0.14.3"></script>
+<script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.14.3/dist/index.umd.min.js"></script>
+<script>(() => {
+    setTimeout(() => {
+        const {markmap: Fe, mm: ur} = window, Fr = new Fe.Toolbar;
+        Fr.attach(ur);
+        const Dr = Fr.render();
+        Dr.setAttribute("style", "position:absolute;bottom:20px;right:20px"), document.body.append(Dr)
+    })
+})()</script>
+<script>((B, S, M, _) => {
+    const I = B();
+    window.mm = I.Markmap.create("svg#mindmap", (S || I.deriveOptions)(_), M)
+})(() => window.markmap, null, {
+    "type": "heading",
+    "depth": 0,
+    "payload": {"lines": [1, 2]},
+    "content": "注解的使用",
+    "children": [{
+        "type": "heading",
+        "depth": 1,
+        "payload": {"lines": [3, 4]},
+        "content": "注解+APT",
+        "children": [{
+            "type": "list_item",
+            "depth": 2,
+            "payload": {"lines": [4, 5]},
+            "content": "APT实现原理"
+        }, {"type": "list_item", "depth": 2, "payload": {"lines": [5, 6]}, "content": "APT使用"}]
+    }, {
+        "type": "heading",
+        "depth": 1,
+        "payload": {"lines": [7, 8]},
+        "content": "注解+反射+动态代理"
+    }, {"type": "heading", "depth": 1, "payload": {"lines": [9, 10]}, "content": "总结"}]
+}, {"colorFreezeLevel": 2})</script>
+</body>
+</html>
