@@ -30,6 +30,14 @@ export default sidebar({
                     ],
                 },
                 {
+                    text: "JVM",
+                    prefix: "java/jvm/",
+                    collapsable: true,
+                    children: [
+                        "运行时数据区","对象分配","GC与调优","Android虚拟机与类加载过程"
+                    ],
+                },
+                {
                     text: "并发编程",
                     prefix: "java/concurrent/",
                     collapsable: true,
